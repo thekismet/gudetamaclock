@@ -1,10 +1,10 @@
 import requests
 
 url = 'https://api.openweathermap.org/data/2.5/weather?q='
-city = 'CITY'
-state = 'STATE/PROVINCE'
-country = 'COUNTRY'
-apikey = 'YOUR OPENWEATHER API KEY'
+city = 'Seoul'
+state = 'Seoul'
+country = 'KR'
+apikey = 'b31928a4b190c3627563df37a61ad368'
 
 query = '{},{},{}&appid={}'.format(city,state,country,apikey)
 request = url + query
