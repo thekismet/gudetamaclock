@@ -52,8 +52,10 @@ colour = inky_display.colour
 x_half = int(inky_display.WIDTH / 2)
 y_half = int(inky_display.HEIGHT / 2)
 
-
 # inky_display.set_rotation(180)
+
+inky_display.h_flip = True
+inky_display.v_flip = True
 
 inky_display.set_border(inky_display.YELLOW)
 
