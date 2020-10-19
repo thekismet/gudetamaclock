@@ -27,8 +27,8 @@ inky_display.set_border(inky_display.YELLOW)
 img = Image.new("P", (x_half, inky_display.HEIGHT))
 draw = ImageDraw.Draw(img)
 
-imgpath1 = "/home/pi/clock/GudeClock/graphics/break.png"
-imgpath2 = "/home/pi/clock/GudeClock/graphics/tired.png"
+imgpath1 = "/home/pi/clock/gudetamaclock/graphics/break.png"
+imgpath2 = "/home/pi/clock/gudetamaclock/graphics/tired.png"
 
 print("Image to be displayed: " + imgpath1)
 print("Image to be displayed: " + imgpath2)
