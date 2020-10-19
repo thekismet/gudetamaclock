@@ -7,7 +7,7 @@ def moonphase():
 	### TO BE REPLACED ###
 	lat = 'xx'
 	lon = '-xx'
-	offset = 'xx'
+	offset = '90:00'
 	### TO BE REPLACED ###
 	
 	date = time.strftime('%Y-%m-%d')
