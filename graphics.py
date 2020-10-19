@@ -10,15 +10,15 @@ weatherid = wid()
 def graphics_path():
 
 	if hour == 1:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/eggshausted.png"
+		graphicspath = "/home/pi/clock/gudetamaclock/graphics/zzz.png"
 	elif hour == 2:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/bed.png"
+		graphicspath = "/home/pi/clock/gudetamaclock/graphics/zzz.png"
 	elif hour == 3:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/ahhh.png"
+		graphicspath = "/home/pi/clock/gudetamaclock/graphics/zzz.png"
 	elif hour >= 4 and hour <= 6:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/depressed.png"
+		graphicspath = "/home/pi/clock/gudetamaclock/graphics/zzz.png"
 	elif hour == 7:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/shy.png"
+		graphicspath = "/home/pi/clock/gudetamaclock/graphics/zzz.png"
 	elif hour == 8:
 		graphicspath = "/home/pi/clock/gudetamaclock/graphics/tumble.png"
 	elif hour == 9:
@@ -46,14 +46,14 @@ def graphics_path():
 	elif hour == 20:
 		graphicspath = "/home/pi/clock/gudetamaclock/graphics/wa.png"
 	elif hour == 21:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/hood.png"
+		graphicspath = "/home/pi/clock/gudetamaclock/graphics/bed.png"
 	elif hour == 22:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/stuck.png"
+		graphicspath = "/home/pi/clock/gudetamaclock/graphics/zzz.png"
 	elif hour == 23:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/handstand.png"	
+		graphicspath = "/home/pi/clock/gudetamaclock/graphics/zzz.png"	
 
 	else:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/icon.png"
+		graphicspath = "/home/pi/clock/gudetamaclock/graphics/zzz.png"
 
 # Weekday
 
