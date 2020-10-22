@@ -24,21 +24,21 @@ def graphics_path():
 	elif hour == 9:
 		graphicspath = "/home/pi/clock/gudetamaclock/graphics/mohana_white_back.png"
 	elif hour == 10:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/elsa2_white_back.png"
+		graphicspath = "/home/pi/clock/gudetamaclock/graphics/ana_white_back.png"
 	elif hour == 11:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/rapunzel7_white_back.png"
+		graphicspath = "/home/pi/clock/gudetamaclock/graphics/ariel2_white_back.png"
 	elif hour == 12:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/mary_white_back.png"
+		graphicspath = "/home/pi/clock/gudetamaclock/graphics/aurora_white_back.png"
 	elif hour == 13:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/rapunzel_white_back.png"
+		graphicspath = "/home/pi/clock/gudetamaclock/graphics/bell3_white_back.png"
 	elif hour == 14:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/rapunzel5_white_back.png"
+		graphicspath = "/home/pi/clock/gudetamaclock/graphics/elsa2_white_back.png"
 	elif hour == 15:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/elsa5_white_back.png"
+		graphicspath = "/home/pi/clock/gudetamaclock/graphics/jasmine_white_back.png"
 	elif hour == 16:
 		graphicspath = "/home/pi/clock/gudetamaclock/graphics/mulan_white_back.png"
 	elif hour == 17:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/bell3_white_back.png"
+		graphicspath = "/home/pi/clock/gudetamaclock/graphics/elsa2_white_back.png"
 	elif hour == 18:
 		graphicspath = "/home/pi/clock/gudetamaclock/graphics/ana2_white_back.png"
 	elif hour == 19:
