@@ -63,15 +63,12 @@ def graphics_path():
 		graphicspath = graphicspath
 	
 # Weathers	
-	# extream rain
-	if weatherid >= 502 and weatherid <= 504:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/mary_white_back.png"
-	# heavy snow
-	elif weatherid == 602 or weatherid == 622:
+	# snow
+	if weatherid >= 600 and weatherid <= 622:
 		graphicspath = "/home/pi/clock/gudetamaclock/graphics/snow_white_back.png"
-	# cloud
-	elif weatherid == 804:
-		graphicspath = "/home/pi/clock/gudetamaclock/graphics/aurora.png"
+	# rain
+	elif weatherid == 504 or weatherid == 522:
+		graphicspath = "/home/pi/clock/gudetamaclock/graphics/rainy_white_back.png"
 	else:
 		graphicspath = graphicspath
 	
