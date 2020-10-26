@@ -21,7 +21,7 @@ def wid():
 
 def temperature():
   degree_sign = u"\N{DEGREE SIGN}"
-  tempC = str(round((data['main']['temp'] - 273.15),1))+degree_sign+"C"
+  tempC = str(round((data['main']['temp'] - 273.15),1))+degree_sign+"C "
   return tempC
 
 def sunrise():
