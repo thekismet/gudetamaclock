@@ -57,7 +57,7 @@ y_half = int(inky_display.HEIGHT / 2)
 inky_display.h_flip = True
 inky_display.v_flip = True
 
-inky_display.set_border(inky_display.YELLOW)
+inky_display.set_border(inky_display.RED)
 
 # Create canvas
 
